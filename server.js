@@ -6,6 +6,6 @@ var app = express();
 var staticPath = path.join(__dirname, '/app');
 app.use(express.static(staticPath));
 
-app.listen(3000, function() {
+app.listen(5000, function() {
   console.log('listening');
 });
